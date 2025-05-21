@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 12px); /* Adjust for padding/border */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.tooltip {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}

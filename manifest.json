@@ -18,8 +18,8 @@
   "commands": {
     "inject_payloads": {
       "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "Command+Shift+F"
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
       },
       "description": "Inject payloads into form fields"
     }
